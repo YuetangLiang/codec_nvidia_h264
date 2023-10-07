@@ -21,7 +21,7 @@ set(LIBRARIES
     nppidei
 )
 
-add_executable(${PROJECT_NAME}_test ${SOURCES} test.cu)
+#add_executable(${PROJECT_NAME}_test ${SOURCES} test.cu)
 target_link_libraries(${PROJECT_NAME}_test PRIVATE ${LIBRARIES})
 add_library(${PROJECT_NAME} SHARED ${SOURCES})
 
